@@ -14,7 +14,7 @@ Dès ses débuts, Spotify a mis en place une organisation en équipes Scrum, cep
 
 Partant de l'idée que \textbf{les principes de l'agilité sont plus importants que les pratiques}, les procédures Scrum sont devenues optionnelles et l'organisation des équipes a été chamboulée. Les Scrum Masters sont devenus des coachs Agiles et les équipes Scrum ont été réorganisées en \textbf{Escouades Autonomes}.
 
-Ces escouades sont des équipes \textbf{auto-organisées} --- elles décident de leur organisation interne, de ce qu'elles vont réaliser et de la manières de le réaliser---, \textbf{autonomes et transverses} ---elles sont capables de réaliser une fonctionnalité du début à la fin : conception, développement, tests, déploiement et maintenance--- de moins de huit personnes ayant \textbf{un objectif à long-terme} ---tel que « Faire de Spotify le meilleur endroit pour écouter de la musique » ou « Fournir une infrastructure pour faire du test AB ».
+Ces escouades sont des équipes \textbf{auto-organisées} --- elles décident de leur organisation interne, de ce qu'elles vont réaliser et de la manière de le réaliser---, \textbf{autonomes et transverses} ---elles sont capables de réaliser une fonctionnalité du début à la fin : conception, développement, tests, déploiement et maintenance--- de moins de huit personnes ayant \textbf{un objectif à long-terme} ---tel que « Faire de Spotify le meilleur endroit pour écouter de la musique » ou « Fournir une infrastructure pour faire du test AB ».
 
 Afin que ces équipes autonomes restent cohérente avec la stratégie de l'entreprise, \textbf{elles sont « alignées » avec la stratégie produit, les priorités de l’entreprise et les autres escouades avec des objectifs à court-terme} négociés tous les trimestres avec leurs supérieurs.
 
@@ -24,7 +24,7 @@ Pour la direction de Spotify, l'autonomie est extrêmement importante puisqu'ils
 
 De plus, l'organisation en équipes autonomes réalisant toutes les étapes d'un projet \textbf{permet d'être rapides} en laissant les décisions avoir lieu localement dans l'escouade et de diminuer les transferts de responsabilités à d’autres équipes ---comme lors d'un déploiement réalisé par une autre équipe---, l’attente ou les réunions inter-équipes permettant une mise à l’échelle sans problèmes de dépendances ou de coordination.
 
-Ceci est reflété dans l'architecture de Spotify, organisée en une centaine de micro-services spécialisés, découplés, codés et développés indépendamment. Chacun de ces systèmes appartient à une équipe ---qui en a donc fait la conception, le développement, le déploiement et qui en effectue la maintenance--- mais ils sont open-source au sein de Spotify, permettant à une escouade de soumettre des modification sur le système d’une autre escouade si cette dernière n’en a pas les capacités. Encore une fois, \textbf{on ne perd pas de temps à attendre que les équipes se coordonnent}.
+Ceci est reflété dans l'architecture de Spotify, organisée en une centaine de micro-services spécialisés, découplés, codés et développés indépendamment. Chacun de ces systèmes appartient à une équipe ---qui en a donc fait la conception, le développement, le déploiement et qui en effectue la maintenance--- et ils sont open-sourcés au sein de Spotify, permettant ainsi à une escouade de soumettre des modifications sur le système d’une autre escouade si cette dernière n’en a pas les capacités. Encore une fois, \textbf{on ne perd pas de temps à attendre que les équipes se coordonnent}.
 
 \newpage
 
@@ -36,9 +36,9 @@ Ce modèle de « self-service » est aussi appliqué dans les mises en productio
 
 Le rôle des \textbf{escouades fonctionnalité} est de développer et maintenir toutes les fonctionnalités qu'ils ont à charge (par exemple la recherche de morceaux) sur toutes les plate-formes.
 
-Les \textbf{escouades infrastructure} ont pour objectif de rendre les autres escouades plus efficaces dans leur mises en production en fournissant des routines et des outils pour la livraison continue, les tests AB et le monitoring.
+Les \textbf{escouades infrastructure} ont pour objectif de rendre les autres escouades plus efficaces dans leurs mises en production en fournissant des routines et des outils pour la livraison continue, les tests AB et le monitoring.
 
-Les \textbf{escouades clients} quand à elles gèrent un des clients (bureau, web, iOS, Android, etc.) et s'attellent à rendre le déploiement par les autres escouades de nouvelles fonctionnalités au sein de leur client le plus facilement possible.
+Les \textbf{escouades clients} quant à elles gèrent un des clients (bureau, web, iOS, Android, etc.) et s'attellent à rendre le déploiement par les autres escouades de nouvelles fonctionnalités au sein de leur client le plus facilement possible.
 
 \newpage
 
@@ -80,7 +80,7 @@ En 2001, l'explosion de la bulle Internet et les attentats du 11 Septembre retar
 
 C'est dans ce contexte que deux conversations vont marquer l'esprit de Patty McCord et définir \textit{la culture Netflix} :
 
-La première est avec un ingénieur qui, suite aux licenciements, se retrouve seul dans son équipe. Il explique que malgré qu'il doive travailler plus longtemps, il n'a jamais autant bien travaillé : \textbf{les trois employés qui étaient sous sa responsabilité étaient des employés moyens avec lesquels il perdait beaucoup trop de temps à micro-manager et à corriger leurs erreurs}.
+La première est avec un ingénieur qui, suite aux licenciements, se retrouve seul dans son équipe. Il explique que bien qu'il doive travailler plus longtemps, il n'a jamais autant bien travaillé : \textbf{les trois employés qui étaient sous sa responsabilité étaient des employés moyens avec lesquels il perdait beaucoup trop de temps à micro-manager et à corriger leurs erreurs}.
 
 La seconde a lieu avec lieu avec une comptable dont \textbf{les compétences n'étaient plus en adéquation avec les besoins de l'entreprise} après son introduction en bourse. Après lui avoir expliqué qu'ils devaient se séparer d'elle malgré sa longue expérience et sa loyauté envers l'entreprise, l'employée se montre compréhensive et considère le licenciement comme l'occasion de changer de carrière.
 
@@ -106,11 +106,11 @@ Brendan Gregg\supercite{WorkingAtNetflix}, ingénieur chez Netflix, considère q
 
 \section{SpaceX \& Tesla Motors : le culte d'Elon Musk}
 
-\textit{L'essentiel des informations de cette section (ainsi que toutes les autres sections concernant SpaceX et Tesla Motors) proviennent de la biographie \texttt{Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future}\supercite{ElonMuskBiography} de Ashlee Vance, journaliste chez Bloomberg. Les informations restantes proviennent des articles de presse cités dans cette section.} 
+\textit{L'essentiel des informations de cette section (ainsi que toutes les autres sections concernant SpaceX et Tesla Motors) proviennent de la biographie \texttt{Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future}\supercite{ElonMuskBiography} d'Ashlee Vance, journaliste chez Bloomberg. Les informations restantes proviennent des articles de presse cités dans cette section.} 
 
 \vspace{5mm}
 
-Malgré qu'Elon Musk n'ait pas techniquement fondé Tesla Motors, \textbf{il a néanmoins fortement influencé la culture de l'entreprise} dès ses débuts : il a profité de sa popularité auprès de la presse pour être le visage de l'entreprise et il a eu une influence forte sur sa stratégie grâce à son statut d'actionnaire principal.
+Bien qu'Elon Musk n'ait pas techniquement fondé Tesla Motors, \textbf{il a néanmoins fortement influencé la culture de l'entreprise} dès ses débuts : il a profité de sa popularité auprès de la presse pour être le visage de l'entreprise et il a eu une influence forte sur sa stratégie grâce à son statut d'actionnaire principal.
 
 Son influence sur l'entreprise a par la suite augmenté après que le conseil d'administration ait remercié Eberhard et nommé Ze'ev Drori puis Elon Musk président de Tesla Motors en Octobre 2008\supercite{MuskTeslaCEO}.
 
@@ -118,7 +118,7 @@ Alors qu'aux débuts de SpaceX et Tesla il ait voulu appliquer sa vision jusqu'a
 
 \vspace{5mm}
 
-Parmi les méthodes qu'il a apporté du monde des start-ups, les \textbf{itérations rapides} étaient présentes dès les débuts de la conception du Roadster et de Falcon 1. L'un des principes clés chez Tesla et SpaceX est de pouvoir \textbf{rencontrer rapidement un problème afin de le diagnostiquer et le résoudre le plus tôt possible}.
+Parmi les méthodes apportées du monde des start-ups, les \textbf{itérations rapides} étaient présentes dès les débuts de la conception du Roadster et de Falcon 1. L'un des principes clés chez Tesla et SpaceX est de pouvoir \textbf{rencontrer rapidement un problème afin de le diagnostiquer et le résoudre le plus tôt possible}.
 
 Pour cela les deux entreprises ont \textbf{massivement recourt aux simulations} : non seulement elles étaient indispensables aux débuts faute de moyens financiers pour réaliser plusieurs prototypes pour les tests, mais elles permettent également de reproduire et corriger des anomalies très rapidement.
 
@@ -126,7 +126,7 @@ Pour cela les deux entreprises ont \textbf{massivement recourt aux simulations} 
 
 \vspace{5mm}
 
-Comme le montre ce recourt aux simulation, une véritable \textbf{chasse au gâchis} a été entreprise par Elon Musk au sein des deux entreprises : \textbf{toute dépense de plus de 10 000 dollars doit être approuvée par ses soins} ---après tout, c'est sa fortune qui est dépensée--- et un \textbf{maximum des pièces sont réalisées en interne}, et ce pour plusieurs raisons.
+Comme le montre ce recourt aux simulations, une véritable \textbf{chasse au gâchis} a été entreprise par Elon Musk au sein des deux entreprises : \textbf{toute dépense de plus de 10 000 dollars doit être approuvée par ses soins} ---après tout, c'est sa fortune qui est dépensée--- et un \textbf{maximum des pièces sont réalisées en interne}, et ce pour plusieurs raisons.
 
 Tout d'abord parce qu'il \textbf{considère la dépendance aux sous-traitants comme une faiblesse} : non seulement l'entreprise peut se retrouver en difficulté si un sous-traitant les abandonne ou fait faillite, mais \textbf{passer par des intermédiaires fait perdre du temps}.
 
