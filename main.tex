@@ -1,0 +1,85 @@
+\documentclass[11pt, a4paper, french]{report}
+\usepackage[french]{babel}
+\selectlanguage{french}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,textcomp}
+\usepackage[
+    left = \flqq,%
+    right = \frqq,%
+    leftsub = \flqq,%
+    rightsub = \frqq%
+]{dirtytalk}
+
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{setspace}
+
+\usepackage{titling}
+
+\usepackage[backend=biber]{biblatex}
+\bibliography{bibliography}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\thefootnote}{\alph{footnote}}
+
+\title{Comment devenir leader de son marché en quelques années et en partant de zéro}
+
+\author{Axel Leroy}
+
+\date{\today}
+
+\begin{document}
+
+\input{./title.tex}
+
+%page blanche
+\newpage
+~
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\input{./remerciements.tex}
+
+\newpage
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\newpage
+
+%ne pas numéroter cette page
+\thispagestyle{empty}
+\input{./abstract.tex}
+
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+%ne pas numéroter le sommaire
+
+\newpage
+~
+\thispagestyle{empty}
+%recommencer la numérotation des pages à "1"
+\setcounter{page}{0}
+\newpage
+
+\input{./intro.tex}
+
+\input{./contexte.tex}
+
+\input{./strategies.tex}
+
+\input{./cultures.tex}
+
+\input{./challenges.tex}
+
+\newpage
+\nocite{SpaceXFirstISS, IFPI2011Report, SpotifyBloomberg, SpotifyNewYorker}
+\printbibliography
+
+\end{document}
